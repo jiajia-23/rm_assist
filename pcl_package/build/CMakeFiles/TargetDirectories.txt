@@ -1,0 +1,10 @@
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/uninstall.dir
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/pcl_package_uninstall.dir
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/pcl_package.dir
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/test.dir
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/edit_cache.dir
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/rebuild_cache.dir
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/list_install_components.dir
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/install.dir
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/install/local.dir
+/home/jiajia/ros2_ws/src/pcl_package/build/CMakeFiles/install/strip.dir
