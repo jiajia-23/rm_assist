@@ -1,0 +1,9 @@
+[Unit]
+Description=启动时显示 Hello World
+
+[Service]
+Type=simple
+ExecStart=/etc/init.d/hello_world.sh
+
+[Install]
+WantedBy=multi-user.target
