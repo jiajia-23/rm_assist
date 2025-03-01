@@ -1,0 +1,257 @@
+[0.012s] Invoking command in '/home/jiajia/wzr/localization_1/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jiajia/wzr/localization_1/src/rm_navigation/third_party/costmap_converter/costmap_converter_msgs -DCMAKE_INSTALL_PREFIX=/home/jiajia/wzr/localization_1/install/costmap_converter_msgs
+[0.065s] -- The C compiler identification is GNU 12.3.0
+[0.112s] -- The CXX compiler identification is GNU 12.3.0
+[0.118s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.409s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.473s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.496s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.498s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.503s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.522s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.533s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.550s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.811s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.266s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.268s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.287s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.288s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.288s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.288s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.303s] -- Found PythonExtra: .so  
+[1.347s] -- Configuring done
+[1.372s] -- Generating done
+[1.380s] -- Build files have been written to: /home/jiajia/wzr/localization_1/build/costmap_converter_msgs
+[1.388s] Invoked command in '/home/jiajia/wzr/localization_1/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jiajia/wzr/localization_1/src/rm_navigation/third_party/costmap_converter/costmap_converter_msgs -DCMAKE_INSTALL_PREFIX=/home/jiajia/wzr/localization_1/install/costmap_converter_msgs
+[1.389s] Invoking command in '/home/jiajia/wzr/localization_1/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/costmap_converter_msgs -- -j2 -l2
+[1.421s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.703s] [  2%] Built target costmap_converter_msgs__cpp
+[1.712s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.001s] [  7%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_c.dir/rosidl_generator_c/costmap_converter_msgs/msg/detail/obstacle_msg__functions.c.o[0m
+[2.047s] [ 10%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_c.dir/rosidl_generator_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.c.o[0m
+[2.082s] [ 12%] [32m[1mLinking C shared library libcostmap_converter_msgs__rosidl_generator_c.so[0m
+[2.107s] [ 12%] Built target costmap_converter_msgs__rosidl_generator_c
+[2.124s] [ 12%] Built target ament_cmake_python_copy_costmap_converter_msgs
+[2.130s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.366s] [ 17%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/costmap_converter_msgs/msg/obstacle_msg__type_support.cpp.o[0m
+[2.556s] [ 20%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/costmap_converter_msgs/msg/obstacle_array_msg__type_support.cpp.o[0m
+[2.731s] [ 23%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_cpp.so[0m
+[2.761s] [ 23%] Built target costmap_converter_msgs__rosidl_typesupport_cpp
+[2.767s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.002s] [ 28%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/costmap_converter_msgs/msg/detail/obstacle_msg__type_support_c.cpp.o[0m
+[3.270s] [ 30%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support_c.cpp.o[0m
+[3.498s] [ 33%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.549s] [ 33%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c
+[3.556s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.813s] [ 38%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/costmap_converter_msgs/msg/detail/dds_fastrtps/obstacle_msg__type_support.cpp.o[0m
+[4.115s] [ 41%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/costmap_converter_msgs/msg/detail/dds_fastrtps/obstacle_array_msg__type_support.cpp.o[0m
+[4.503s] [ 43%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.566s] [ 43%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp
+[4.575s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.848s] [ 48%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.c.o[0m
+[4.885s] [ 51%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.c.o[0m
+[4.919s] [ 53%] [32m[1mLinking C shared library libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.945s] [ 53%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c
+[4.954s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.173s] [ 58%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/costmap_converter_msgs/msg/obstacle_msg__type_support.cpp.o[0m
+[5.201s] [ 61%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/costmap_converter_msgs/msg/obstacle_array_msg__type_support.cpp.o[0m
+[5.224s] [ 64%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_c.so[0m
+[5.273s] [ 64%] Built target costmap_converter_msgs__rosidl_typesupport_c
+[5.286s] [ 66%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.542s] [ 69%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.cpp.o[0m
+[5.773s] [ 71%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.cpp.o[0m
+[6.091s] [ 74%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.150s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp
+[6.324s] running egg_info
+[6.326s] creating costmap_converter_msgs.egg-info
+[6.326s] writing costmap_converter_msgs.egg-info/PKG-INFO
+[6.326s] writing dependency_links to costmap_converter_msgs.egg-info/dependency_links.txt
+[6.326s] writing top-level names to costmap_converter_msgs.egg-info/top_level.txt
+[6.327s] writing manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[6.328s] reading manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[6.328s] writing manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[6.347s] [ 74%] Built target ament_cmake_python_build_costmap_converter_msgs_egg
+[6.361s] [ 74%] Built target costmap_converter_msgs
+[6.377s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.721s] [ 76%] Built target costmap_converter_msgs__py
+[6.734s] [ 79%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_py.dir/rosidl_generator_py/costmap_converter_msgs/msg/_obstacle_msg_s.c.o[0m
+[6.814s] [ 82%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_py.dir/rosidl_generator_py/costmap_converter_msgs/msg/_obstacle_array_msg_s.c.o[0m
+[6.889s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/libcostmap_converter_msgs__rosidl_generator_py.so[0m
+[6.919s] [ 84%] Built target costmap_converter_msgs__rosidl_generator_py
+[6.931s] [ 87%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.999s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.030s] [ 89%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.045s] [ 92%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.112s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.138s] [ 94%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext
+[7.152s] [ 97%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.222s] [100%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.254s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext
+[7.266s] Invoked command in '/home/jiajia/wzr/localization_1/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/costmap_converter_msgs -- -j2 -l2
+[7.283s] Invoking command in '/home/jiajia/wzr/localization_1/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/costmap_converter_msgs
+[7.293s] -- Install configuration: ""
+[7.293s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/ament_index/resource_index/rosidl_interfaces/costmap_converter_msgs
+[7.293s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[7.294s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[7.294s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[7.294s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.h
+[7.295s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.c
+[7.295s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__functions.h
+[7.295s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__struct.h
+[7.295s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.h
+[7.295s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__functions.c
+[7.295s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.h
+[7.295s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.h
+[7.295s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_array_msg.h
+[7.296s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_msg.h
+[7.297s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.297s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.sh
+[7.298s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.dsv
+[7.298s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so
+[7.298s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so" to ""
+[7.298s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[7.298s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[7.298s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[7.298s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_c.h
+[7.298s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_c.h
+[7.298s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.298s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so
+[7.298s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.301s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[7.301s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_msg.hpp
+[7.301s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.hpp
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.hpp
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__traits.hpp
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__builder.hpp
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.hpp
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__struct.hpp
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__traits.hpp
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__builder.hpp
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_array_msg.hpp
+[7.301s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.301s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[7.301s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.302s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/dds_fastrtps
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.302s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.302s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[7.302s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[7.302s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.c
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_c.h
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_c.h
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.c
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so
+[7.302s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.302s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so
+[7.302s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so" to ""
+[7.302s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[7.304s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[7.304s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[7.305s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.cpp
+[7.305s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.305s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.305s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.cpp
+[7.305s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so
+[7.305s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.305s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so
+[7.305s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so" to ""
+[7.306s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.sh
+[7.306s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.dsv
+[7.307s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info
+[7.307s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/PKG-INFO
+[7.307s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/dependency_links.txt
+[7.307s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/SOURCES.txt
+[7.307s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/top_level.txt
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_c.c
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/libcostmap_converter_msgs__rosidl_generator_py.so
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/__init__.py
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg.py
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg.py
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/__init__.py
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg_s.c
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg_s.c
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.310s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.337s] Listing '/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs'...
+[7.337s] Compiling '/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/__init__.py'...
+[7.337s] Listing '/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg'...
+[7.337s] Compiling '/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/__init__.py'...
+[7.337s] Compiling '/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg.py'...
+[7.337s] Compiling '/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg.py'...
+[7.344s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.344s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.344s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.344s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.344s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.344s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.344s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_py.so
+[7.344s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_py.so" to ""
+[7.344s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.idl
+[7.344s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.idl
+[7.344s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.msg
+[7.344s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.msg
+[7.344s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/ament_index/resource_index/package_run_dependencies/costmap_converter_msgs
+[7.346s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/ament_index/resource_index/parent_prefix_path/costmap_converter_msgs
+[7.346s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.sh
+[7.346s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.dsv
+[7.346s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.sh
+[7.346s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.dsv
+[7.346s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.bash
+[7.346s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.sh
+[7.347s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.zsh
+[7.347s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.dsv
+[7.347s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv
+[7.347s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/ament_index/resource_index/packages/costmap_converter_msgs
+[7.347s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cExport.cmake
+[7.348s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.348s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.349s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.349s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cppExport.cmake
+[7.349s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.349s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.350s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.350s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.350s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport.cmake
+[7.351s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.351s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.351s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.351s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport.cmake
+[7.351s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.353s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_pyExport.cmake
+[7.353s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.354s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake-extras.cmake
+[7.354s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.354s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.355s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.355s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.355s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.355s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.355s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig.cmake
+[7.355s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig-version.cmake
+[7.357s] -- Installing: /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/share/costmap_converter_msgs/package.xml
+[7.357s] Invoked command in '/home/jiajia/wzr/localization_1/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/costmap_converter_msgs

@@ -1,0 +1,114 @@
+[0.007s] Invoking command in '/home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake /home/jiajia/wzr/localization_1/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros
+[0.063s] -- The C compiler identification is GNU 12.3.0
+[0.115s] -- The CXX compiler identification is GNU 12.3.0
+[0.123s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.290s] -- Detecting CXX compiler ABI info - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.298s] -- Detecting CXX compile features
+[0.298s] -- Detecting CXX compile features - done
+[0.300s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.577s] -- Found Boost: /usr/local/lib/cmake/Boost-1.86.0/BoostConfig.cmake (found version "1.86.0") found components: date_time 
+[0.664s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.668s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.674s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.720s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.721s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.780s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.800s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.840s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.844s] -- Looking for pthread.h
+[0.895s] -- Looking for pthread.h - found
+[0.895s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.948s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.949s] -- Found Threads: TRUE  
+[1.140s] -- Checking for module 'flann'
+[1.153s] --   Found flann, version 1.9.1
+[1.192s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.192s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.388s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.389s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[1.426s] -- Checking for module 'libusb-1.0'
+[1.436s] --   Found libusb-1.0, version 1.0.25
+[1.458s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.459s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.491s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.493s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.500s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.510s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.213s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.218s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.472s] -- Found Qhull version 8.0.2
+[2.749s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[2.749s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[2.750s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[2.751s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[2.752s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[2.752s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[2.752s] -- Found PCL_2D: /usr/local/include/pcl-1.14  
+[2.753s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.14  
+[2.753s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[2.754s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[2.755s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[2.755s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[2.759s] -- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+[2.762s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[2.763s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[2.763s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[2.764s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[2.765s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[2.765s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[2.766s] -- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+[2.767s] -- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+[2.785s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.785s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.785s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.809s] -- Configuring done
+[2.873s] -- Generating done
+[2.885s] -- Build files have been written to: /home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros
+[2.903s] Invoked command in '/home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake /home/jiajia/wzr/localization_1/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros
+[2.904s] Invoking command in '/home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros -- -j2 -l2
+[2.947s] [ 25%] [32mBuilding CXX object CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o[0m
+[21.779s] [ 50%] [32m[1mLinking CXX executable ground_segmentation_node[0m
+[22.094s] /usr/bin/ld: warning: libpcl_common.so.1.14, needed by /usr/local/lib/libpcl_visualization.so, may conflict with libpcl_common.so.1.12
+[22.292s] [ 50%] Built target ground_segmentation_node
+[22.310s] [ 75%] [32mBuilding CXX object CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o[0m
+[31.644s] [100%] [32m[1mLinking CXX executable ground_segmentation_test_node[0m
+[32.000s] /usr/bin/ld: warning: libboost_iostreams.so.1.74.0, needed by /usr/local/lib/libpcl_io.so, may conflict with libboost_iostreams.so.1.86.0
+[32.002s] /usr/bin/ld: warning: libpcl_common.so.1.14, needed by /usr/local/lib/libpcl_io.so, may conflict with libpcl_common.so.1.12
+[32.156s] [100%] Built target ground_segmentation_test_node
+[32.171s] Invoked command in '/home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros -- -j2 -l2
+[32.172s] Invoking command in '/home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros
+[32.177s] -- Install configuration: ""
+[32.178s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node
+[32.179s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node" to ""
+[32.179s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node
+[32.179s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node" to ""
+[32.179s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch
+[32.179s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/test.launch.py
+[32.180s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation.launch.py
+[32.180s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation_params.yaml
+[32.180s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros
+[32.180s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros
+[32.181s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.sh
+[32.181s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.dsv
+[32.181s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.sh
+[32.181s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.dsv
+[32.181s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.bash
+[32.181s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.sh
+[32.181s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.zsh
+[32.181s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.dsv
+[32.182s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv
+[32.182s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros
+[32.182s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.182s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig.cmake
+[32.182s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig-version.cmake
+[32.182s] -- Installing: /home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.xml
+[32.183s] Invoked command in '/home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros

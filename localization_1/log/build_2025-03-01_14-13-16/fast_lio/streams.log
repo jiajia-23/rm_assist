@@ -1,0 +1,333 @@
+[0.006s] Invoking command in '/home/jiajia/wzr/localization_1/build/fast_lio': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jiajia/wzr/localization_1/src/rm_localization/fast_lio -DCMAKE_INSTALL_PREFIX=/home/jiajia/wzr/localization_1/install/fast_lio
+[0.076s] -- The C compiler identification is GNU 12.3.0
+[0.125s] -- The CXX compiler identification is GNU 12.3.0
+[0.134s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.269s] [0mCurrent CPU archtecture: x86_64[0m
+[0.273s] [0mProcesser number:  2[0m
+[0.541s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.545s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.697s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.780s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.803s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.806s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.812s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.820s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.862s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.864s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.921s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.942s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.976s] -- Looking for pthread.h
+[1.043s] -- Looking for pthread.h - found
+[1.043s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.112s] -- Found Threads: TRUE  
+[1.158s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.180s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.189s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.202s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.216s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.223s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.240s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.306s] -- Checking for module 'flann'
+[1.317s] --   Found flann, version 1.9.1
+[1.355s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.355s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.357s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.357s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[1.401s] -- Checking for module 'libusb-1.0'
+[1.411s] --   Found libusb-1.0, version 1.0.25
+[1.445s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.447s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.492s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.494s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.503s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.519s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.292s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.299s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.506s] -- Found Qhull version 8.0.2
+[2.753s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[2.753s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[2.754s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[2.754s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[2.755s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[2.755s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[2.756s] -- Found PCL_2D: /usr/local/include/pcl-1.14  
+[2.756s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.14  
+[2.757s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[2.757s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[2.758s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[2.758s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[2.759s] -- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+[2.759s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[2.760s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[2.760s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[2.762s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[2.762s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[2.762s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[2.762s] -- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+[2.763s] -- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+[2.777s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.779s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.779s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.824s] -- Found livox_ros_driver2: 1.0.0 (/home/jiajia/wzr/localization_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[2.839s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.853s] -- Found Boost: /usr/local/lib/cmake/Boost-1.86.0/BoostConfig.cmake (found version "1.86.0") found components: date_time 
+[2.853s] [33mCMake Warning (dev) at CMakeLists.txt:83 (find_package):
+[2.853s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.853s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.853s]   command to set the policy and suppress this warning.
+[2.854s] 
+[2.854s]   CMake variable PCL_ROOT is set to:
+[2.854s] 
+[2.854s]     /usr/local
+[2.854s] 
+[2.854s]   For compatibility, CMake is ignoring the variable.
+[2.854s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.854s] [0m
+[2.859s] [0mEigen:/usr/include/eigen3[0m
+[2.859s] -- PCL: /usr/local/include/pcl-1.14
+[3.066s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.455s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.460s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.479s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.480s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.480s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.480s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.495s] -- Found PythonExtra: .so  
+[3.535s] -- Configuring done
+[3.586s] -- Generating done
+[3.602s] -- Build files have been written to: /home/jiajia/wzr/localization_1/build/fast_lio
+[3.616s] Invoked command in '/home/jiajia/wzr/localization_1/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jiajia/wzr/localization_1/src/rm_localization/fast_lio -DCMAKE_INSTALL_PREFIX=/home/jiajia/wzr/localization_1/install/fast_lio
+[3.617s] Invoking command in '/home/jiajia/wzr/localization_1/build/fast_lio': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/fast_lio -- -j2 -l2
+[3.665s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.947s] [  2%] Built target fast_lio__cpp
+[3.956s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.201s] [  8%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[4.320s] [ 11%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[4.352s] [ 11%] Built target fast_lio__rosidl_generator_c
+[4.377s] [ 11%] Built target ament_cmake_python_copy_fast_lio
+[4.384s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.591s] [ 17%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[4.920s] [ 20%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[4.953s] [ 20%] Built target fast_lio__rosidl_typesupport_cpp
+[4.963s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.182s] [ 25%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[5.473s] [ 28%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[5.544s] [ 28%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[5.552s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.853s] [ 34%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[6.223s] [ 37%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.299s] [ 37%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[6.309s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.580s] [ 42%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[6.656s] [ 45%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[6.704s] [ 45%] Built target fast_lio__rosidl_typesupport_introspection_c
+[6.713s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.003s] [ 51%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[7.033s] [ 54%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[7.069s] [ 54%] Built target fast_lio__rosidl_typesupport_c
+[7.076s] [ 57%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.298s] [ 60%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[7.598s] [ 62%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[7.626s] [ 62%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[7.819s] running egg_info
+[7.820s] creating fast_lio.egg-info
+[7.820s] writing fast_lio.egg-info/PKG-INFO
+[7.820s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[7.820s] writing top-level names to fast_lio.egg-info/top_level.txt
+[7.820s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[7.822s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[7.822s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[7.846s] [ 62%] Built target ament_cmake_python_build_fast_lio_egg
+[7.859s] [ 65%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[13.601s] In file included from [01m[K/usr/local/include/boost/bind.hpp:30[m[K,
+[13.601s]                  from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/fast_lio/include/IKFoM_toolkit/esekfom/esekfom.hpp:42[m[K,
+[13.601s]                  from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/fast_lio/include/use-ikfom.hpp:4[m[K,
+[13.601s]                  from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/fast_lio/src/IMU_Processing.hpp:22[m[K,
+[13.601s]                  from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/fast_lio/src/laserMapping.cpp:47[m[K:
+[13.601s] [01m[K/usr/local/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[13.601s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[13.601s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[100.799s] [ 68%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[106.519s] [ 71%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[116.254s] [ 74%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[117.213s] /usr/bin/ld: warning: libboost_iostreams.so.1.74.0, needed by /usr/local/lib/libpcl_io.so, may conflict with libboost_iostreams.so.1.86.0
+[117.214s] /usr/bin/ld: warning: libboost_filesystem.so.1.74.0, needed by /usr/local/lib/libpcl_io.so, may conflict with libboost_filesystem.so.1.86.0
+[117.217s] /usr/bin/ld: warning: libpcl_common.so.1.14, needed by /usr/local/lib/libpcl_io.so, may conflict with libpcl_common.so.1.12
+[117.489s] [ 74%] Built target fastlio_mapping
+[117.504s] [ 74%] Built target fast_lio
+[117.519s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[117.913s] [ 77%] Built target fast_lio__py
+[117.927s] [ 80%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[118.053s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[118.097s] [ 82%] Built target fast_lio__rosidl_generator_py
+[118.119s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[118.233s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[118.265s] [ 88%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[118.280s] [ 91%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[118.369s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[118.396s] [ 94%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[118.409s] [ 97%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[118.491s] [100%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[118.517s] [100%] Built target fast_lio__rosidl_typesupport_c__pyext
+[118.529s] Invoked command in '/home/jiajia/wzr/localization_1/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/fast_lio -- -j2 -l2
+[118.530s] Invoking command in '/home/jiajia/wzr/localization_1/build/fast_lio': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/fast_lio
+[118.536s] -- Install configuration: "Release"
+[118.536s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[118.536s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio
+[118.536s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg
+[118.536s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[118.537s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[118.537s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[118.538s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[118.538s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c
+[118.538s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[118.538s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[118.538s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/environment/library_path.sh
+[118.538s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[118.538s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[118.538s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""
+[118.538s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio
+[118.539s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg
+[118.539s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[118.539s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[118.539s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[118.540s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[118.540s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""
+[118.540s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio
+[118.540s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg
+[118.540s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[118.540s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[118.541s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[118.541s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[118.542s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[118.542s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[118.542s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[118.542s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio
+[118.542s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg
+[118.542s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[118.542s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[118.543s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps
+[118.543s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[118.543s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[118.543s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""
+[118.543s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio
+[118.543s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg
+[118.543s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[118.544s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[118.544s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c
+[118.544s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[118.544s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[118.544s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""
+[118.544s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[118.544s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""
+[118.544s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio
+[118.544s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg
+[118.544s] -- Up-to-date: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[118.544s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[118.544s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp
+[118.544s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[118.544s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[118.545s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[118.545s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[118.546s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[118.546s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[118.546s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[118.546s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[118.546s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[118.546s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[118.546s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[118.575s] Listing '/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[118.575s] Compiling '/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py'...
+[118.575s] Listing '/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[118.575s] Compiling '/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py'...
+[118.575s] Compiling '/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py'...
+[118.578s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[118.578s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[118.579s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[118.579s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[118.579s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[118.580s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[118.580s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[118.580s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""
+[118.580s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[118.581s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[118.581s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/lib/fast_lio/fastlio_mapping
+[118.582s] -- Set runtime path of "/home/jiajia/wzr/localization_1/install/fast_lio/lib/fast_lio/fastlio_mapping" to ""
+[118.582s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/config
+[118.583s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/config/mid360.yaml
+[118.583s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/config/avia.yaml
+[118.583s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[118.583s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[118.583s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/config/horizon.yaml
+[118.583s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/launch
+[118.584s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[118.584s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[118.584s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/rviz
+[118.584s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[118.585s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[118.585s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[118.585s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[118.585s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[118.585s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/environment/path.sh
+[118.586s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/environment/path.dsv
+[118.586s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/local_setup.bash
+[118.586s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/local_setup.sh
+[118.586s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/local_setup.zsh
+[118.586s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/local_setup.dsv
+[118.586s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/package.dsv
+[118.586s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[118.588s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[118.588s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[118.588s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[118.588s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[118.588s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[118.588s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[118.589s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[118.589s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[118.589s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[118.589s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[118.590s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[118.590s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[118.590s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[118.590s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[118.590s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[118.590s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[118.591s] -- Installing: /home/jiajia/wzr/localization_1/install/fast_lio/share/fast_lio/package.xml
+[118.594s] Invoked command in '/home/jiajia/wzr/localization_1/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/jiajia/wzr/localization_1/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/fast_lio

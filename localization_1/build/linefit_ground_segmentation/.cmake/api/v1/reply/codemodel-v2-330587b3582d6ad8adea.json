@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-55403bb5c2e46b9ea61f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "linefit_ground_segmentation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-headers-4faf3107995b776a6acc.json",
+					"name" : "headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linefit_ground_segmentation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linefit_ground_segmentation-ccd565c1c8da94a0947e.json",
+					"name" : "linefit_ground_segmentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linefit_ground_segmentation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linefit_ground_segmentation_uninstall-66574f3cb7c6ea322aa5.json",
+					"name" : "linefit_ground_segmentation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7a797fc1c1b0b058da6c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiajia/wzr/localization_1/build/linefit_ground_segmentation",
+		"source" : "/home/jiajia/wzr/localization_1/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

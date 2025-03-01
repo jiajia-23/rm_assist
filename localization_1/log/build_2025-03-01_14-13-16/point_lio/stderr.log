@@ -1,0 +1,17 @@
+In file included from [01m[K/usr/local/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/point_lio/include/../include/IKFoM/IKFoM_toolkit/esekfom/esekfom.hpp:42[m[K,
+                 from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/point_lio/src/Estimator.h:4[m[K,
+                 from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/point_lio/src/laserMapping.cpp:28[m[K:
+[01m[K/usr/local/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/point_lio/include/../include/IKFoM/IKFoM_toolkit/esekfom/esekfom.hpp:42[m[K,
+                 from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/point_lio/src/Estimator.h:4[m[K,
+                 from [01m[K/home/jiajia/wzr/localization_1/src/rm_localization/point_lio/src/Estimator.cpp:2[m[K:
+[01m[K/usr/local/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: warning: libpcl_common.so.1.14, needed by /usr/local/lib/libpcl_filters.so, may conflict with libpcl_common.so.1.12
+/usr/bin/ld: warning: libboost_iostreams.so.1.74.0, needed by /usr/local/lib/libpcl_io.so, may conflict with libboost_iostreams.so.1.86.0
+/usr/bin/ld: warning: libboost_filesystem.so.1.74.0, needed by /usr/local/lib/libpcl_io.so, may conflict with libboost_filesystem.so.1.86.0
