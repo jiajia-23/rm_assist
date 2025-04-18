@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/mindvision_camera/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

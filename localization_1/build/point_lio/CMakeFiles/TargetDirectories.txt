@@ -1,0 +1,10 @@
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/uninstall.dir
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/point_lio_uninstall.dir
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/pointlio_mapping.dir
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/test.dir
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/edit_cache.dir
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/rebuild_cache.dir
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/list_install_components.dir
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/install.dir
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/install/local.dir
+/home/jiajia/wzr/localization_1/build/point_lio/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jiajia/wzr/localization_1/build/mechax_trajectory/libmechax_trajectory.so" "TARGETS" "mechax_trajectory" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

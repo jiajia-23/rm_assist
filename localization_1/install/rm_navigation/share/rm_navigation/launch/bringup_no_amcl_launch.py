@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/src/rm_navigation/src/launch/bringup_no_amcl_launch.py

@@ -1,0 +1,7 @@
+[01m[K/home/jiajia/wzr/localization_1/src/rm_aimassist/src/assist_node.cpp:1:9:[m[K [01;31m[Kfatal error: [m[Krm_aimassist/assist_node.hpp: No such file or directory
+    1 | #include[01;31m[K"rm_aimassist/assist_node.hpp"[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rm_aimassist_lib.dir/build.make:76: CMakeFiles/rm_aimassist_lib.dir/src/assist_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rm_aimassist_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

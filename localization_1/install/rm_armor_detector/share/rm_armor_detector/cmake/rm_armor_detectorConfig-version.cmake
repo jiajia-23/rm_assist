@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/rm_armor_detector/ament_cmake_core/rm_armor_detectorConfig-version.cmake

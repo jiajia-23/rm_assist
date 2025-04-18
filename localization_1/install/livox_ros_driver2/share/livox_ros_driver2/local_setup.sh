@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/livox_ros_driver2/ament_cmake_environment_hooks/local_setup.sh

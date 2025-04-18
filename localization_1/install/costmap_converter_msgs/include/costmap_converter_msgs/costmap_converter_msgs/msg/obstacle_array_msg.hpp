@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/costmap_converter_msgs/rosidl_generator_cpp/costmap_converter_msgs/msg/obstacle_array_msg.hpp

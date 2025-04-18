@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_msgs/msg/AssistData.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module rm_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "前哨站相对于机器人的位置 (单位：米)")
+    struct AssistData {
+      double rel_x;
+
+      double rel_y;
+
+      double rel_z;
+
+      @verbatim (language="comment", text=
+        " 前哨站相对于机器人的欧拉角 (单位：弧度)" "\n"
+        "float64 roll" "\n"
+        "float64 pitch" "\n"
+        "float64 yaw" "\n"
+        " 可选：时间戳")
+      builtin_interfaces::msg::Time stamp;
+    };
+  };
+};

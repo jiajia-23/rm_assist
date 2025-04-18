@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-620c982e9458faea6638.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_armor_tracker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_armor_tracker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_armor_tracker-8ae0570b33c7e29f269f.json",
+					"name" : "rm_armor_tracker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_armor_tracker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_armor_tracker_node-22c9ed0ce14c2b437e9e.json",
+					"name" : "rm_armor_tracker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_armor_tracker_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_armor_tracker_uninstall-592c99915f2f8dc493c1.json",
+					"name" : "rm_armor_tracker_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e8de1f0d369ad084981f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiajia/wzr/localization_1/build/rm_armor_tracker",
+		"source" : "/home/jiajia/wzr/localization_1/src/rm_armor_tracker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

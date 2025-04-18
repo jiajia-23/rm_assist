@@ -1,0 +1,11 @@
+source;share/mechax_trajectory/hook/cmake_prefix_path.ps1
+source;share/mechax_trajectory/hook/cmake_prefix_path.dsv
+source;share/mechax_trajectory/hook/cmake_prefix_path.sh
+source;share/mechax_trajectory/hook/ld_library_path_lib.ps1
+source;share/mechax_trajectory/hook/ld_library_path_lib.dsv
+source;share/mechax_trajectory/hook/ld_library_path_lib.sh
+source;share/mechax_trajectory/local_setup.bash
+source;share/mechax_trajectory/local_setup.dsv
+source;share/mechax_trajectory/local_setup.ps1
+source;share/mechax_trajectory/local_setup.sh
+source;share/mechax_trajectory/local_setup.zsh

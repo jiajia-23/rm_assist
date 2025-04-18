@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/linefit_ground_segmentation/ament_cmake_environment_hooks/local_setup.zsh

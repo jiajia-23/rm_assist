@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/rm_navigation/ament_cmake_environment_hooks/local_setup.zsh

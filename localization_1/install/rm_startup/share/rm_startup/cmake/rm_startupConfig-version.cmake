@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/rm_startup/ament_cmake_core/rm_startupConfig-version.cmake

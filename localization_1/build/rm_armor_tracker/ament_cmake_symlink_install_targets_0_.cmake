@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jiajia/wzr/localization_1/build/rm_armor_tracker/rm_armor_tracker_node" "TARGETS" "rm_armor_tracker_node" "DESTINATION" "lib/rm_armor_tracker")

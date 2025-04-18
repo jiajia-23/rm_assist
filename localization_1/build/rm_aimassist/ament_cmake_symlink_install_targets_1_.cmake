@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jiajia/wzr/localization_1/build/rm_aimassist/librm_aimassist_lib.so" "TARGETS" "rm_aimassist_lib" "RUNTIME_DESTINATION" "lib")

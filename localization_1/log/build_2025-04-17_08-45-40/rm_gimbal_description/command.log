@@ -1,0 +1,4 @@
+Invoking command in '/home/jiajia/wzr/localization_1/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/rm_gimbal_description -- -j4 -l4
+Invoked command in '/home/jiajia/wzr/localization_1/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/rm_gimbal_description -- -j4 -l4
+Invoking command in '/home/jiajia/wzr/localization_1/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/rm_gimbal_description
+Invoked command in '/home/jiajia/wzr/localization_1/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/rm_gimbal_description
