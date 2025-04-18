@@ -1,0 +1,8 @@
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_adapter/rm_msgs:msg/Armor.idl
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_adapter/rm_msgs:msg/Target.idl
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_adapter/rm_msgs:msg/SendSerial.idl
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_adapter/rm_msgs:msg/ReceiveSerial.idl
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_adapter/rm_msgs:msg/Status.idl
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_adapter/rm_msgs:msg/ClosedLoop.idl
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_adapter/rm_msgs:msg/Bias.idl
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_adapter/rm_msgs:msg/AssistData.idl

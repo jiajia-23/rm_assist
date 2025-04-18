@@ -1,0 +1,11 @@
+[31mCMake Error at /opt/ros/humble/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake:72 (add_executable):
+  add_executable cannot create target "rm_aimassist_node" because another
+  target with the same name already exists.  The existing target is a shared
+  library created in source directory
+  "/home/jiajia/wzr/localization_1/src/rm_aimassist".  See documentation for
+  policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:57 (rclcpp_components_register_node)
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

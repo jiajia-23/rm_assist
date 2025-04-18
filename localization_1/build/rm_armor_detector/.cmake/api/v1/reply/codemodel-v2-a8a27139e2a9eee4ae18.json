@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f3b1780a7683ff91685f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_armor_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_armor_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_armor_detector-e8f90940a2abeffba92f.json",
+					"name" : "rm_armor_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_armor_detector_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_armor_detector_node-1f6e8919bf756426fe90.json",
+					"name" : "rm_armor_detector_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_armor_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_armor_detector_uninstall-6b4e4af5fe260425b340.json",
+					"name" : "rm_armor_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a8d0a685fc9632d81a25.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiajia/wzr/localization_1/build/rm_armor_detector",
+		"source" : "/home/jiajia/wzr/localization_1/src/rm_armor_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

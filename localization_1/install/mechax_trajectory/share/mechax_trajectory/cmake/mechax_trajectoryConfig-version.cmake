@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/ament_cmake_core/mechax_trajectoryConfig-version.cmake

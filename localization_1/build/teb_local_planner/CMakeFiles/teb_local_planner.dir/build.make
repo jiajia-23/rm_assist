@@ -378,6 +378,13 @@ libteb_local_planner.so: /opt/ros/humble/lib/librosidl_typesupport_introspection
 libteb_local_planner.so: /opt/ros/humble/lib/librclcpp.so
 libteb_local_planner.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
 libteb_local_planner.so: /opt/ros/humble/lib/libbondcpp.so
+libteb_local_planner.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
+libteb_local_planner.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so
+libteb_local_planner.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_c.so
+libteb_local_planner.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_cpp.so
+libteb_local_planner.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_cpp.so
+libteb_local_planner.so: /opt/ros/humble/lib/libbond__rosidl_generator_py.so
+libteb_local_planner.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
 libteb_local_planner.so: /opt/ros/humble/lib/libbond__rosidl_generator_c.so
 libteb_local_planner.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
 libteb_local_planner.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so
@@ -413,7 +420,6 @@ libteb_local_planner.so: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_chol
 libteb_local_planner.so: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_pcg.so
 libteb_local_planner.so: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_csparse.so
 libteb_local_planner.so: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_incremental.so
-libteb_local_planner.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
 libteb_local_planner.so: /opt/ros/humble/lib/libclass_loader.so
 libteb_local_planner.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libteb_local_planner.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so

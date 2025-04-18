@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "icp_registration")
 set(icp_registration_VERSION "0.0.0")
-set(icp_registration_MAINTAINER "zcf <baiyeweiguang@163.com>")
+set(icp_registration_MAINTAINER "jiajia <2151703433@qq.com>")
 set(icp_registration_BUILD_DEPENDS "rclcpp" "rclcpp_components" "sensor_msgs" "pcl" "pcl_conversions" "tf2" "tf2_ros" "tf2_geometry_msgs" "livox_ros_driver2" "eigen" "geometry_msgs")
 set(icp_registration_BUILDTOOL_DEPENDS "ament_cmake")
 set(icp_registration_BUILD_EXPORT_DEPENDS "rclcpp" "rclcpp_components" "sensor_msgs" "pcl" "pcl_conversions" "tf2" "tf2_ros" "tf2_geometry_msgs" "livox_ros_driver2" "eigen" "geometry_msgs")

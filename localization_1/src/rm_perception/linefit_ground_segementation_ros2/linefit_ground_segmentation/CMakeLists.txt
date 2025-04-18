@@ -6,7 +6,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_definitions(-std=c++17 -O3)
 
 
-
+find_paCkage(ament_cmake REQUIRED)
 find_package(Boost REQUIRED COMPONENTS date_time)
 find_package(ament_cmake_auto REQUIRED)
 

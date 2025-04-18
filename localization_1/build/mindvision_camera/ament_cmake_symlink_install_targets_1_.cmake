@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jiajia/wzr/localization_1/build/mindvision_camera/libmindvision_camera.so" "TARGETS" "mindvision_camera" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

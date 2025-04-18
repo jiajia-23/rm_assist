@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_typesupport_fastrtps_cpp/rm_msgs/msg/detail/send_serial__rosidl_typesupport_fastrtps_cpp.hpp

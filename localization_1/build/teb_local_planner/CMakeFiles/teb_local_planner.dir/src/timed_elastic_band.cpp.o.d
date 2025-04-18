@@ -768,16 +768,17 @@ CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.hpp \
  /opt/ros/humble/include/tf2/tf2/buffer_core.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.h \
+ /opt/ros/humble/include/tf2/tf2/buffer_core.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
  /usr/include/c++/12/math.h /usr/include/c++/12/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/float.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
  /opt/ros/humble/include/tf2/tf2/visibility_control.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -794,12 +795,12 @@ CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
- /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
- /opt/ros/humble/include/tf2/tf2/time.h \
- /opt/ros/humble/include/tf2/tf2/exceptions.h \
- /opt/ros/humble/include/tf2/tf2/transform_storage.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
+ /opt/ros/humble/include/tf2/tf2/buffer_core_interface.hpp \
+ /opt/ros/humble/include/tf2/tf2/time.hpp \
+ /opt/ros/humble/include/tf2/tf2/exceptions.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_storage.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
  /usr/include/c++/12/complex \
  /home/jiajia/wzr/localization_1/src/rm_navigation/third_party/teb_local_planner/teb_local_planner/include/teb_local_planner/obstacles.h \
  /usr/include/eigen3/Eigen/Core \
@@ -1054,11 +1055,13 @@ CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
  /opt/ros/humble/include/tf2/tf2/convert.h \
- /opt/ros/humble/include/tf2/tf2/impl/convert.h \
- /opt/ros/humble/include/tf2/tf2/transform_datatypes.h \
+ /opt/ros/humble/include/tf2/tf2/convert.hpp \
+ /opt/ros/humble/include/tf2/tf2/impl/convert.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp \
  /opt/ros/humble/include/tf2/tf2/utils.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
- /opt/ros/humble/include/tf2/tf2/impl/utils.h \
+ /opt/ros/humble/include/tf2/tf2/utils.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/humble/include/tf2/tf2/impl/utils.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp \

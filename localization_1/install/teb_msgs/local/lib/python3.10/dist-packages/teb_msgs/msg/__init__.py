@@ -1,3 +1,1 @@
-from teb_msgs.msg._feedback_msg import FeedbackMsg  # noqa: F401
-from teb_msgs.msg._trajectory_msg import TrajectoryMsg  # noqa: F401
-from teb_msgs.msg._trajectory_point_msg import TrajectoryPointMsg  # noqa: F401
+/home/jiajia/wzr/localization_1/build/teb_msgs/rosidl_generator_py/teb_msgs/msg/__init__.py

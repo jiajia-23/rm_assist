@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-83ea04a67ba30f606149.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_rune",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_rune::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_rune-c986e38db68c5da5303c.json",
+					"name" : "rm_rune",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_rune_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_rune_node-1c7d9f5c14c74728d1bc.json",
+					"name" : "rm_rune_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_rune_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_rune_uninstall-9bfbf6cfacd8dc3a4149.json",
+					"name" : "rm_rune_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ebe994b910157562a53f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiajia/wzr/localization_1/build/rm_rune",
+		"source" : "/home/jiajia/wzr/localization_1/src/rm_rune"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

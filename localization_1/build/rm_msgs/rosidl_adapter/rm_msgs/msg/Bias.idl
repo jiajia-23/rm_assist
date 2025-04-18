@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_msgs/msg/Bias.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module rm_msgs {
+  module msg {
+    struct Bias {
+      std_msgs::msg::Header header;
+
+      double need_t;
+
+      double fly_t;
+
+      double serial_bias_time;
+
+      double latency_bias_time;
+
+      double motor_bias_time;
+    };
+  };
+};

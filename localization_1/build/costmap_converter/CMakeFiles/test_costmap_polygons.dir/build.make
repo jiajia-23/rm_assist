@@ -248,6 +248,12 @@ test_costmap_polygons: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_p
 test_costmap_polygons: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
 test_costmap_polygons: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
 test_costmap_polygons: /opt/ros/humble/lib/libbondcpp.so
+test_costmap_polygons: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
+test_costmap_polygons: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so
+test_costmap_polygons: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_c.so
+test_costmap_polygons: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_cpp.so
+test_costmap_polygons: /opt/ros/humble/lib/libbond__rosidl_typesupport_cpp.so
+test_costmap_polygons: /opt/ros/humble/lib/libbond__rosidl_generator_py.so
 test_costmap_polygons: /opt/ros/humble/lib/libbond__rosidl_generator_c.so
 test_costmap_polygons: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
 test_costmap_polygons: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so

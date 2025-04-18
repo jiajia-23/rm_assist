@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_typesupport_fastrtps_c/rm_msgs/msg/detail/assist_data__rosidl_typesupport_fastrtps_c.h

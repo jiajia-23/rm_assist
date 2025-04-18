@@ -1,6 +1,1 @@
-# Message that contains a trajectory for mobile robot navigation
-
-std_msgs/Header header
-teb_msgs/TrajectoryPointMsg[] trajectory
-
-
+/home/jiajia/wzr/localization_1/src/rm_navigation/third_party/teb_local_planner/teb_msgs/msg/TrajectoryMsg.msg

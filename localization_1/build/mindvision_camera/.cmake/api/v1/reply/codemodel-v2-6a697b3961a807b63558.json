@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9fd0ba0d5667568b301f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mindvision_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mindvision_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mindvision_camera-5ae2904a464c08fe0a68.json",
+					"name" : "mindvision_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mindvision_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mindvision_camera_node-a21aafc95154e3a6b634.json",
+					"name" : "mindvision_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mindvision_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mindvision_camera_uninstall-b9c0f3530037985ce3ac.json",
+					"name" : "mindvision_camera_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-17549428bfe9c1b7bce4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiajia/wzr/localization_1/build/mindvision_camera",
+		"source" : "/home/jiajia/wzr/localization_1/src/ros2-mindvision-camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

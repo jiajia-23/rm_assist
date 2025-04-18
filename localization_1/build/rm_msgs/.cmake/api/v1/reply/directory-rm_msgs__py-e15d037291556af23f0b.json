@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rm_msgs__py",
+		"source" : "/home/jiajia/wzr/localization_1/build/rm_msgs/rm_msgs__py"
+	}
+}

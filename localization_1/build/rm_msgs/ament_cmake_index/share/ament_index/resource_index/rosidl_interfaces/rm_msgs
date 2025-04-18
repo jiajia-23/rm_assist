@@ -1,0 +1,16 @@
+msg/Armor.idl
+msg/Armor.msg
+msg/AssistData.idl
+msg/AssistData.msg
+msg/Bias.idl
+msg/Bias.msg
+msg/ClosedLoop.idl
+msg/ClosedLoop.msg
+msg/ReceiveSerial.idl
+msg/ReceiveSerial.msg
+msg/SendSerial.idl
+msg/SendSerial.msg
+msg/Status.idl
+msg/Status.msg
+msg/Target.idl
+msg/Target.msg

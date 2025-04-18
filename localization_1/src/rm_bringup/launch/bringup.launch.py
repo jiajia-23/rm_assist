@@ -20,7 +20,7 @@ def generate_launch_description():
     SetParameter(name='rune',value=launch_params['rune']),
     
     robot_description = Command(['xacro ', os.path.join(
-        get_package_share_directory('rm_robot_description'), 'urdf', 'sentry.urdf.xacro'),
+        get_package_share_directory('rm_gimbal_description'), 'urdf', 'rm_gimbal.urdf.xacro'),
         ' xyz:=', launch_params['base2camera']['xyz'], ' rpy:=', launch_params['base2camera']['rpy']])
 
     robot_state_publisher = Node(

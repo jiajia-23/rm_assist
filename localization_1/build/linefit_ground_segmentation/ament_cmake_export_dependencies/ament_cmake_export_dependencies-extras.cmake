@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "pcl_ros;pcl_conversions")
+set(_exported_dependencies "pcl_ros;pcl_conversions;ament_cmake_auto")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

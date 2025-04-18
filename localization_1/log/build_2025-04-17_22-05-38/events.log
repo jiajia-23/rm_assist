@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000421] (-) JobUnselected: {'identifier': 'closed_loop'}
+[0.000453] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000476] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000498] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000519] (-) JobUnselected: {'identifier': 'hik_camera'}
+[0.000759] (-) JobUnselected: {'identifier': 'icp_registration'}
+[0.000835] (-) JobUnselected: {'identifier': 'imu_complementary_filter'}
+[0.000859] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation'}
+[0.000881] (-) JobUnselected: {'identifier': 'linefit_ground_segmentation_ros'}
+[0.000904] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000925] (-) JobUnselected: {'identifier': 'mechax_trajectory'}
+[0.000945] (-) JobUnselected: {'identifier': 'mindvision_camera'}
+[0.000965] (-) JobUnselected: {'identifier': 'point_lio'}
+[0.000986] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.001006] (-) JobUnselected: {'identifier': 'rm_armor_detector'}
+[0.001027] (-) JobUnselected: {'identifier': 'rm_armor_tracker'}
+[0.001047] (-) JobUnselected: {'identifier': 'rm_bringup'}
+[0.001067] (-) JobUnselected: {'identifier': 'rm_gimbal_description'}
+[0.001087] (-) JobUnselected: {'identifier': 'rm_msgs'}
+[0.001108] (-) JobUnselected: {'identifier': 'rm_navigation'}
+[0.001128] (-) JobUnselected: {'identifier': 'rm_rune'}
+[0.001148] (-) JobUnselected: {'identifier': 'rm_serial_driver'}
+[0.001168] (-) JobUnselected: {'identifier': 'rm_startup'}
+[0.001188] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.001208] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.001230] (rm_aimassist) JobQueued: {'identifier': 'rm_aimassist', 'dependencies': OrderedDict([('rm_msgs', '/home/jiajia/wzr/localization_1/install/rm_msgs')])}
+[0.001255] (rm_aimassist) JobStarted: {'identifier': 'rm_aimassist'}
+[0.010666] (rm_aimassist) JobProgress: {'identifier': 'rm_aimassist', 'progress': 'cmake'}
+[0.011561] (rm_aimassist) JobProgress: {'identifier': 'rm_aimassist', 'progress': 'build'}
+[0.011609] (rm_aimassist) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiajia/wzr/localization_1/build/rm_aimassist', '--', '-j4', '-l4'], 'cwd': '/home/jiajia/wzr/localization_1/build/rm_aimassist', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'jiajia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jiajia/wzr/localization_1/install/rm_msgs/lib:/home/jiajia/wzr/localization_1/install/teb_local_planner/lib:/home/jiajia/wzr/localization_1/install/teb_msgs/lib:/home/jiajia/wzr/localization_1/install/rm_serial_driver/lib:/home/jiajia/wzr/localization_1/install/rm_rune/lib:/home/jiajia/wzr/localization_1/install/rm_armor_tracker/lib:/home/jiajia/wzr/localization_1/install/rm_armor_detector/lib:/home/jiajia/wzr/localization_1/install/rm_aimassist/lib:/home/jiajia/wzr/localization_1/install/mechax_trajectory/lib:/home/jiajia/wzr/localization_1/install/closed_loop/lib:/home/jiajia/wzr/localization_1/install/pointcloud_to_laserscan/lib:/home/jiajia/wzr/localization_1/install/mindvision_camera/lib:/home/jiajia/wzr/localization_1/install/icp_registration/lib:/home/jiajia/wzr/localization_1/install/fast_lio/lib:/home/jiajia/wzr/localization_1/install/livox_ros_driver2/lib:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation/lib:/home/jiajia/wzr/localization_1/install/imu_complementary_filter/lib:/home/jiajia/wzr/localization_1/install/hik_camera/lib:/home/jiajia/wzr/localization_1/install/costmap_converter/lib:/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/jiajia'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('SYSTEMD_EXEC_PID', '2076'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2808'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jiajia/wzr/localization_1/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jiajia'), ('JOURNAL_STREAM', '8:22404'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jiajia/Downloads/opencv/build/unix-install:/home/jiajia/Downloads/opencv/build/unix-install:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jiajia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/jiajia/wzr/localization_1/install/costmap_converter/bin:/opt/ros/humble/bin:/home/jiajia/.local/bin:/home/jiajia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jiajia-virtual-machine:@/tmp/.ICE-unix/2048,unix/jiajia-virtual-machine:/tmp/.ICE-unix/2048'), ('INVOCATION_ID', 'd4bb196022784c6f81224ed8f90e723e'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WT6Y42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a828cf45ae.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jiajia/wzr/localization_1/install/teb_local_planner:/home/jiajia/wzr/localization_1/install/teb_msgs:/home/jiajia/wzr/localization_1/install/rm_startup:/home/jiajia/wzr/localization_1/install/rm_bringup:/home/jiajia/wzr/localization_1/install/rm_serial_driver:/home/jiajia/wzr/localization_1/install/rm_rune:/home/jiajia/wzr/localization_1/install/rm_navigation:/home/jiajia/wzr/localization_1/install/rm_armor_tracker:/home/jiajia/wzr/localization_1/install/rm_armor_detector:/home/jiajia/wzr/localization_1/install/rm_aimassist:/home/jiajia/wzr/localization_1/install/mechax_trajectory:/home/jiajia/wzr/localization_1/install/closed_loop:/home/jiajia/wzr/localization_1/install/rm_msgs:/home/jiajia/wzr/localization_1/install/rm_gimbal_description:/home/jiajia/wzr/localization_1/install/pointcloud_to_laserscan:/home/jiajia/wzr/localization_1/install/point_lio:/home/jiajia/wzr/localization_1/install/mindvision_camera:/home/jiajia/wzr/localization_1/install/icp_registration:/home/jiajia/wzr/localization_1/install/fast_lio:/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/home/jiajia/wzr/localization_1/install/imu_complementary_filter:/home/jiajia/wzr/localization_1/install/hik_camera:/home/jiajia/wzr/localization_1/install/costmap_converter:/home/jiajia/wzr/localization_1/install/costmap_converter_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jiajia/wzr/localization_1/build/rm_aimassist'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiajia/wzr/localization_1/install/teb_msgs/local/lib/python3.10/dist-packages:/home/jiajia/wzr/localization_1/install/rm_msgs/local/lib/python3.10/dist-packages:/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages:/home/jiajia/wzr/localization_1/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jiajia/wzr/localization_1/install/rm_msgs:/home/jiajia/wzr/localization_1/install/teb_local_planner:/home/jiajia/wzr/localization_1/install/teb_msgs:/home/jiajia/wzr/localization_1/install/rm_startup:/home/jiajia/wzr/localization_1/install/rm_bringup:/home/jiajia/wzr/localization_1/install/rm_serial_driver:/home/jiajia/wzr/localization_1/install/rm_rune:/home/jiajia/wzr/localization_1/install/rm_navigation:/home/jiajia/wzr/localization_1/install/rm_armor_tracker:/home/jiajia/wzr/localization_1/install/rm_armor_detector:/home/jiajia/wzr/localization_1/install/rm_aimassist:/home/jiajia/wzr/localization_1/install/mechax_trajectory:/home/jiajia/wzr/localization_1/install/closed_loop:/home/jiajia/wzr/localization_1/install/rm_gimbal_description:/home/jiajia/wzr/localization_1/install/pointcloud_to_laserscan:/home/jiajia/wzr/localization_1/install/point_lio:/home/jiajia/wzr/localization_1/install/mindvision_camera:/home/jiajia/wzr/localization_1/install/icp_registration:/home/jiajia/wzr/localization_1/install/fast_lio:/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/home/jiajia/wzr/localization_1/install/imu_complementary_filter:/home/jiajia/wzr/localization_1/install/hik_camera:/home/jiajia/wzr/localization_1/install/costmap_converter:/home/jiajia/wzr/localization_1/install/costmap_converter_msgs:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.035883] (rm_aimassist) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099839] (-) TimerEvent: {}
+[0.119512] (rm_aimassist) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.123775] (rm_aimassist) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.142286] (rm_aimassist) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.145444] (rm_aimassist) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.148991] (rm_aimassist) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.153821] (rm_aimassist) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.161609] (rm_aimassist) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.180597] (rm_aimassist) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.181871] (rm_aimassist) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200114] (-) TimerEvent: {}
+[0.256507] (rm_aimassist) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.284221] (rm_aimassist) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.300483] (-) TimerEvent: {}
+[0.339968] (rm_aimassist) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.342453] (rm_aimassist) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.343579] (rm_aimassist) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.344827] (rm_aimassist) StdoutLine: {'line': b'-- Found rm_msgs: 0.0.0 (/home/jiajia/wzr/localization_1/install/rm_msgs/share/rm_msgs/cmake)\n'}
+[0.352936] (rm_aimassist) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.358013] (rm_aimassist) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400899] (-) TimerEvent: {}
+[0.410826] (rm_aimassist) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.411032] (rm_aimassist) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jiajia/wzr/localization_1/src/rm_aimassist/include\n'}
+[0.411094] (rm_aimassist) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.411346] (rm_aimassist) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.412925] (rm_aimassist) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.413003] (rm_aimassist) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.413055] (rm_aimassist) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.413087] (rm_aimassist) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.413116] (rm_aimassist) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.414261] (rm_aimassist) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.428708] (rm_aimassist) StdoutLine: {'line': b'-- Generating done\n'}
+[0.432581] (rm_aimassist) StdoutLine: {'line': b'-- Build files have been written to: /home/jiajia/wzr/localization_1/build/rm_aimassist\n'}
+[0.464931] (rm_aimassist) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rm_aimassist_lib.dir/src/assist_node.cpp.o\x1b[0m\n'}
+[0.501079] (-) TimerEvent: {}
+[0.602432] (-) TimerEvent: {}
+[0.704298] (-) TimerEvent: {}
+[0.804757] (-) TimerEvent: {}
+[0.905526] (-) TimerEvent: {}
+[1.005972] (-) TimerEvent: {}
+[1.106700] (-) TimerEvent: {}
+[1.207475] (-) TimerEvent: {}
+[1.308331] (-) TimerEvent: {}
+[1.408608] (-) TimerEvent: {}
+[1.508954] (-) TimerEvent: {}
+[1.609435] (-) TimerEvent: {}
+[1.710053] (-) TimerEvent: {}
+[1.810631] (-) TimerEvent: {}
+[1.910988] (-) TimerEvent: {}
+[2.011900] (-) TimerEvent: {}
+[2.112840] (-) TimerEvent: {}
+[2.213318] (-) TimerEvent: {}
+[2.313682] (-) TimerEvent: {}
+[2.409556] (rm_aimassist) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiajia/wzr/localization_1/src/rm_aimassist/src/assist_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_assist::AssistNode::calculateRelativePosition()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.409869] (rm_aimassist) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiajia/wzr/localization_1/src/rm_aimassist/src/assist_node.cpp:85:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Koutpost_relative_to_robot\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.409915] (rm_aimassist) StderrLine: {'line': b'   85 |      tf2::Transform \x1b[01;35m\x1b[Koutpost_relative_to_robot\x1b[m\x1b[K = relative_tf.inverse();\n'}
+[2.409946] (rm_aimassist) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.410123] (rm_aimassist) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiajia/wzr/localization_1/src/rm_aimassist/src/assist_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_assist::AssistNode::publishAssistData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.410176] (rm_aimassist) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiajia/wzr/localization_1/src/rm_aimassist/src/assist_node.cpp:105:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Krotation\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.410206] (rm_aimassist) StderrLine: {'line': b'  105 |     auto \x1b[01;35m\x1b[Krotation\x1b[m\x1b[K = outpost_relative_to_robot.getRotation();\n'}
+[2.410235] (rm_aimassist) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.413924] (-) TimerEvent: {}
+[2.514365] (-) TimerEvent: {}
+[2.614683] (-) TimerEvent: {}
+[2.715100] (-) TimerEvent: {}
+[2.815413] (-) TimerEvent: {}
+[2.915994] (-) TimerEvent: {}
+[3.016787] (-) TimerEvent: {}
+[3.117294] (-) TimerEvent: {}
+[3.217787] (-) TimerEvent: {}
+[3.319614] (-) TimerEvent: {}
+[3.420065] (-) TimerEvent: {}
+[3.524083] (-) TimerEvent: {}
+[3.624556] (-) TimerEvent: {}
+[3.725097] (-) TimerEvent: {}
+[3.825894] (-) TimerEvent: {}
+[3.926216] (-) TimerEvent: {}
+[4.026553] (-) TimerEvent: {}
+[4.127000] (-) TimerEvent: {}
+[4.227350] (-) TimerEvent: {}
+[4.328153] (-) TimerEvent: {}
+[4.428447] (-) TimerEvent: {}
+[4.528796] (-) TimerEvent: {}
+[4.629145] (-) TimerEvent: {}
+[4.729557] (-) TimerEvent: {}
+[4.832125] (-) TimerEvent: {}
+[4.932842] (-) TimerEvent: {}
+[4.993818] (rm_aimassist) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library librm_aimassist_lib.so\x1b[0m\n'}
+[5.033134] (-) TimerEvent: {}
+[5.133716] (-) TimerEvent: {}
+[5.208802] (rm_aimassist) StdoutLine: {'line': b'[ 50%] Built target rm_aimassist_lib\n'}
+[5.218371] (rm_aimassist) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_aimassist_node\x1b[0m\n'}
+[5.232767] (rm_aimassist) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rm_aimassist_node.dir/rclcpp_components/node_main_rm_aimassist_node.cpp.o\x1b[0m\n'}
+[5.234681] (-) TimerEvent: {}
+[5.335045] (-) TimerEvent: {}
+[5.435439] (-) TimerEvent: {}
+[5.535757] (-) TimerEvent: {}
+[5.636091] (-) TimerEvent: {}
+[5.736913] (-) TimerEvent: {}
+[5.837615] (-) TimerEvent: {}
+[5.938483] (-) TimerEvent: {}
+[6.039278] (-) TimerEvent: {}
+[6.139828] (-) TimerEvent: {}
+[6.240571] (-) TimerEvent: {}
+[6.340946] (-) TimerEvent: {}
+[6.441692] (-) TimerEvent: {}
+[6.542602] (-) TimerEvent: {}
+[6.643404] (-) TimerEvent: {}
+[6.744214] (-) TimerEvent: {}
+[6.844541] (-) TimerEvent: {}
+[6.945373] (-) TimerEvent: {}
+[7.046226] (-) TimerEvent: {}
+[7.146687] (-) TimerEvent: {}
+[7.247867] (-) TimerEvent: {}
+[7.348607] (-) TimerEvent: {}
+[7.449008] (-) TimerEvent: {}
+[7.487478] (rm_aimassist) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rm_aimassist_node\x1b[0m\n'}
+[7.549255] (-) TimerEvent: {}
+[7.579137] (rm_aimassist) StdoutLine: {'line': b'[100%] Built target rm_aimassist_node\n'}
+[7.590656] (rm_aimassist) CommandEnded: {'returncode': 0}
+[7.591552] (rm_aimassist) JobProgress: {'identifier': 'rm_aimassist', 'progress': 'install'}
+[7.600812] (rm_aimassist) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jiajia/wzr/localization_1/build/rm_aimassist'], 'cwd': '/home/jiajia/wzr/localization_1/build/rm_aimassist', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'jiajia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jiajia/wzr/localization_1/install/rm_msgs/lib:/home/jiajia/wzr/localization_1/install/teb_local_planner/lib:/home/jiajia/wzr/localization_1/install/teb_msgs/lib:/home/jiajia/wzr/localization_1/install/rm_serial_driver/lib:/home/jiajia/wzr/localization_1/install/rm_rune/lib:/home/jiajia/wzr/localization_1/install/rm_armor_tracker/lib:/home/jiajia/wzr/localization_1/install/rm_armor_detector/lib:/home/jiajia/wzr/localization_1/install/rm_aimassist/lib:/home/jiajia/wzr/localization_1/install/mechax_trajectory/lib:/home/jiajia/wzr/localization_1/install/closed_loop/lib:/home/jiajia/wzr/localization_1/install/pointcloud_to_laserscan/lib:/home/jiajia/wzr/localization_1/install/mindvision_camera/lib:/home/jiajia/wzr/localization_1/install/icp_registration/lib:/home/jiajia/wzr/localization_1/install/fast_lio/lib:/home/jiajia/wzr/localization_1/install/livox_ros_driver2/lib:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation/lib:/home/jiajia/wzr/localization_1/install/imu_complementary_filter/lib:/home/jiajia/wzr/localization_1/install/hik_camera/lib:/home/jiajia/wzr/localization_1/install/costmap_converter/lib:/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/jiajia'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('SYSTEMD_EXEC_PID', '2076'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2808'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jiajia/wzr/localization_1/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jiajia'), ('JOURNAL_STREAM', '8:22404'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jiajia/Downloads/opencv/build/unix-install:/home/jiajia/Downloads/opencv/build/unix-install:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jiajia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/jiajia/wzr/localization_1/install/costmap_converter/bin:/opt/ros/humble/bin:/home/jiajia/.local/bin:/home/jiajia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jiajia-virtual-machine:@/tmp/.ICE-unix/2048,unix/jiajia-virtual-machine:/tmp/.ICE-unix/2048'), ('INVOCATION_ID', 'd4bb196022784c6f81224ed8f90e723e'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WT6Y42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a828cf45ae.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jiajia/wzr/localization_1/install/teb_local_planner:/home/jiajia/wzr/localization_1/install/teb_msgs:/home/jiajia/wzr/localization_1/install/rm_startup:/home/jiajia/wzr/localization_1/install/rm_bringup:/home/jiajia/wzr/localization_1/install/rm_serial_driver:/home/jiajia/wzr/localization_1/install/rm_rune:/home/jiajia/wzr/localization_1/install/rm_navigation:/home/jiajia/wzr/localization_1/install/rm_armor_tracker:/home/jiajia/wzr/localization_1/install/rm_armor_detector:/home/jiajia/wzr/localization_1/install/rm_aimassist:/home/jiajia/wzr/localization_1/install/mechax_trajectory:/home/jiajia/wzr/localization_1/install/closed_loop:/home/jiajia/wzr/localization_1/install/rm_msgs:/home/jiajia/wzr/localization_1/install/rm_gimbal_description:/home/jiajia/wzr/localization_1/install/pointcloud_to_laserscan:/home/jiajia/wzr/localization_1/install/point_lio:/home/jiajia/wzr/localization_1/install/mindvision_camera:/home/jiajia/wzr/localization_1/install/icp_registration:/home/jiajia/wzr/localization_1/install/fast_lio:/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/home/jiajia/wzr/localization_1/install/imu_complementary_filter:/home/jiajia/wzr/localization_1/install/hik_camera:/home/jiajia/wzr/localization_1/install/costmap_converter:/home/jiajia/wzr/localization_1/install/costmap_converter_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jiajia/wzr/localization_1/build/rm_aimassist'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiajia/wzr/localization_1/install/teb_msgs/local/lib/python3.10/dist-packages:/home/jiajia/wzr/localization_1/install/rm_msgs/local/lib/python3.10/dist-packages:/home/jiajia/wzr/localization_1/install/fast_lio/local/lib/python3.10/dist-packages:/home/jiajia/wzr/localization_1/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiajia/wzr/localization_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jiajia/wzr/localization_1/install/rm_msgs:/home/jiajia/wzr/localization_1/install/teb_local_planner:/home/jiajia/wzr/localization_1/install/teb_msgs:/home/jiajia/wzr/localization_1/install/rm_startup:/home/jiajia/wzr/localization_1/install/rm_bringup:/home/jiajia/wzr/localization_1/install/rm_serial_driver:/home/jiajia/wzr/localization_1/install/rm_rune:/home/jiajia/wzr/localization_1/install/rm_navigation:/home/jiajia/wzr/localization_1/install/rm_armor_tracker:/home/jiajia/wzr/localization_1/install/rm_armor_detector:/home/jiajia/wzr/localization_1/install/rm_aimassist:/home/jiajia/wzr/localization_1/install/mechax_trajectory:/home/jiajia/wzr/localization_1/install/closed_loop:/home/jiajia/wzr/localization_1/install/rm_gimbal_description:/home/jiajia/wzr/localization_1/install/pointcloud_to_laserscan:/home/jiajia/wzr/localization_1/install/point_lio:/home/jiajia/wzr/localization_1/install/mindvision_camera:/home/jiajia/wzr/localization_1/install/icp_registration:/home/jiajia/wzr/localization_1/install/fast_lio:/home/jiajia/wzr/localization_1/install/livox_ros_driver2:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation_ros:/home/jiajia/wzr/localization_1/install/linefit_ground_segmentation:/home/jiajia/wzr/localization_1/install/imu_complementary_filter:/home/jiajia/wzr/localization_1/install/hik_camera:/home/jiajia/wzr/localization_1/install/costmap_converter:/home/jiajia/wzr/localization_1/install/costmap_converter_msgs:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[7.606510] (rm_aimassist) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.607089] (rm_aimassist) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.607230] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/lib/rm_aimassist/rm_aimassist_node\n'}
+[7.607533] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/lib/rm_aimassist_node\n'}
+[7.607649] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/lib/rm_aimassist_node\n'}
+[7.607951] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/include/rm_aimassist/assist_node.hpp\n'}
+[7.608119] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/launch/assist_node_launch.py\n'}
+[7.608273] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/config/outpost.yaml\n'}
+[7.609255] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/ament_index/resource_index/package_run_dependencies/rm_aimassist\n'}
+[7.609369] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/ament_index/resource_index/parent_prefix_path/rm_aimassist\n'}
+[7.609402] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/environment/ament_prefix_path.sh\n'}
+[7.609448] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/environment/ament_prefix_path.dsv\n'}
+[7.609518] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/environment/path.sh\n'}
+[7.609601] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/environment/path.dsv\n'}
+[7.609656] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/local_setup.bash\n'}
+[7.609713] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/local_setup.sh\n'}
+[7.609768] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/local_setup.zsh\n'}
+[7.609813] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/local_setup.dsv\n'}
+[7.609894] (rm_aimassist) StdoutLine: {'line': b'-- Symlinking: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/package.dsv\n'}
+[7.618401] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/ament_index/resource_index/packages/rm_aimassist\n'}
+[7.618603] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/ament_index/resource_index/rclcpp_components/rm_aimassist\n'}
+[7.618669] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.618722] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/cmake/rm_aimassistConfig.cmake\n'}
+[7.618790] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/cmake/rm_aimassistConfig-version.cmake\n'}
+[7.618822] (rm_aimassist) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiajia/wzr/localization_1/install/rm_aimassist/share/rm_aimassist/package.xml\n'}
+[7.620525] (rm_aimassist) CommandEnded: {'returncode': 0}
+[7.637373] (rm_aimassist) JobEnded: {'identifier': 'rm_aimassist', 'rc': 0}
+[7.637924] (-) EventReactorShutdown: {}

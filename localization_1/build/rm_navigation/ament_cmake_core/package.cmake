@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "rm_navigation")
 set(rm_navigation_VERSION "0.0.0")
-set(rm_navigation_MAINTAINER "fyt <fyt@todo.todo>")
+set(rm_navigation_MAINTAINER "jiajia <2151703433@qq.com>")
 set(rm_navigation_BUILD_DEPENDS )
 set(rm_navigation_BUILDTOOL_DEPENDS "ament_cmake")
 set(rm_navigation_BUILD_EXPORT_DEPENDS )

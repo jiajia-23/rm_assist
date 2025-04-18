@@ -1,6 +1,1 @@
-msg/FeedbackMsg.idl
-msg/FeedbackMsg.msg
-msg/TrajectoryMsg.idl
-msg/TrajectoryMsg.msg
-msg/TrajectoryPointMsg.idl
-msg/TrajectoryPointMsg.msg
+/home/jiajia/wzr/localization_1/build/teb_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/teb_msgs

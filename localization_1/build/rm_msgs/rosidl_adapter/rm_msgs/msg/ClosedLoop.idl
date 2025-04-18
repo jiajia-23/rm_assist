@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_msgs/msg/ClosedLoop.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rm_msgs {
+  module msg {
+    struct ClosedLoop {
+      std_msgs::msg::Header image_header;
+
+      std_msgs::msg::Header shoot_header;
+
+      string id;
+
+      int8 armor_num;
+
+      double r;
+
+      double another_r;
+
+      double dz;
+
+      double yaw;
+
+      double c_to_a_pitch;
+
+      geometry_msgs::msg::Pose now_pose;
+
+      geometry_msgs::msg::Pose pred_pose;
+
+      geometry_msgs::msg::Pose now_armor_pose;
+
+      double v0;
+
+      double theta;
+
+      double fly_t;
+    };
+  };
+};

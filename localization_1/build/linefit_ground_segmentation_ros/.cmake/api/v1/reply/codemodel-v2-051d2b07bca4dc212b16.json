@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e941528c88cf3e581249.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "linefit_ground_segmentation_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ground_segmentation_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ground_segmentation_node-ed6a2f7e2ac695546513.json",
+					"name" : "ground_segmentation_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ground_segmentation_test_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ground_segmentation_test_node-3174f1f8e68b4b08a9e3.json",
+					"name" : "ground_segmentation_test_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-headers-3372f463054da7364aec.json",
+					"name" : "headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linefit_ground_segmentation_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linefit_ground_segmentation_ros_uninstall-ac59d23b322bb0dd1f78.json",
+					"name" : "linefit_ground_segmentation_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e74d3ae732ae5a34988f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiajia/wzr/localization_1/build/linefit_ground_segmentation_ros",
+		"source" : "/home/jiajia/wzr/localization_1/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

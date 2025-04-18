@@ -397,6 +397,12 @@ libcostmap_converter.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator
 libcostmap_converter.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
 libcostmap_converter.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
 libcostmap_converter.so: /opt/ros/humble/lib/libbondcpp.so
+libcostmap_converter.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
+libcostmap_converter.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so
+libcostmap_converter.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_c.so
+libcostmap_converter.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_cpp.so
+libcostmap_converter.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_cpp.so
+libcostmap_converter.so: /opt/ros/humble/lib/libbond__rosidl_generator_py.so
 libcostmap_converter.so: /opt/ros/humble/lib/libbond__rosidl_generator_c.so
 libcostmap_converter.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
 libcostmap_converter.so: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so

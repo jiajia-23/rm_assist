@@ -1,0 +1,10 @@
+rm_assist_node:  # 必须和节点名称一致
+  ros__parameters:
+    outpost:
+      x: 10.0
+      y: 5.0
+      z: 0.0
+      qx: 0.0
+      qy: 0.0
+      qz: 0.0
+      qw: 1.0

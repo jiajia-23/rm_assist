@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0c8407696062e3afe0be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_aimassist",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_aimassist_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_aimassist_lib-8724b400e883b10073d7.json",
+					"name" : "rm_aimassist_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_aimassist_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_aimassist_node-95d00df4e61351f222b7.json",
+					"name" : "rm_aimassist_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_aimassist_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_aimassist_uninstall-156147a988581af0738d.json",
+					"name" : "rm_aimassist_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-97ab1c1e84c7d5ef66b1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiajia/wzr/localization_1/build/rm_aimassist",
+		"source" : "/home/jiajia/wzr/localization_1/src/rm_aimassist"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

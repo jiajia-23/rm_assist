@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jiajia/wzr/localization_1/build/mechax_trajectory/mechax_trajectory_node" "TARGETS" "mechax_trajectory_node" "DESTINATION" "lib/mechax_trajectory")

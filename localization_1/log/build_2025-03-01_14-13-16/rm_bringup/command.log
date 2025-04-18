@@ -1,6 +1,0 @@
-Invoking command in '/home/jiajia/wzr/localization_1/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jiajia/wzr/localization_1/src/rm_bringup -DCMAKE_INSTALL_PREFIX=/home/jiajia/wzr/localization_1/install/rm_bringup
-Invoked command in '/home/jiajia/wzr/localization_1/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jiajia/wzr/localization_1/src/rm_bringup -DCMAKE_INSTALL_PREFIX=/home/jiajia/wzr/localization_1/install/rm_bringup
-Invoking command in '/home/jiajia/wzr/localization_1/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/rm_bringup -- -j2 -l2
-Invoked command in '/home/jiajia/wzr/localization_1/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jiajia/wzr/localization_1/build/rm_bringup -- -j2 -l2
-Invoking command in '/home/jiajia/wzr/localization_1/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/rm_bringup
-Invoked command in '/home/jiajia/wzr/localization_1/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jiajia/wzr/localization_1/build/rm_bringup

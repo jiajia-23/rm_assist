@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/mindvision_camera/ament_cmake_core/mindvision_cameraConfig-version.cmake

@@ -1,0 +1,11 @@
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/uninstall.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/closed_loop_uninstall.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/closed_loop.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/closed_loop_node.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/test.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/edit_cache.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/rebuild_cache.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/list_install_components.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/install.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/install/local.dir
+/home/jiajia/wzr/localization_1/build/closed_loop/CMakeFiles/install/strip.dir

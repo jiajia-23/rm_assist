@@ -1,0 +1,11 @@
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/uninstall.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/rm_aimassist_uninstall.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/rm_aimassist_lib.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/rm_aimassist_node.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/test.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/edit_cache.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/rebuild_cache.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/list_install_components.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/install.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/install/local.dir
+/home/jiajia/wzr/localization_1/build/rm_aimassist/CMakeFiles/install/strip.dir

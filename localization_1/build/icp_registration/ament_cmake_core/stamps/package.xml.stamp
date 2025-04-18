@@ -4,7 +4,7 @@
   <name>icp_registration</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="baiyeweiguang@163.com">zcf</maintainer>
+  <maintainer email="2151703433@qq.com">jiajia</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

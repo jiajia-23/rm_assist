@@ -32,6 +32,7 @@
 // CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
+#define BOOST_BIND_GLOBAL_PLACEHOLDERS
 #include <omp.h>
 #include <mutex>
 #include <math.h>
@@ -76,10 +77,10 @@ int    kdtree_size_st = 0, kdtree_size_end = 0, add_point_size = 0, kdtree_delet
 bool   runtime_pos_log = false, pcd_save_en = false, time_sync_en = false, extrinsic_est_en = true, path_en = true;
 /**************************/
 
-float res_last[100000] = {0.0};
-float DET_RANGE = 300.0f;
-const float MOV_THRESHOLD = 1.5f;
-double time_diff_lidar_to_imu = 0.0;
+float res_last[100000] = {0.0};//存储点云残差的数组。
+float DET_RANGE = 300.0f;//表示激光雷达的检测范围（单位为米）。在这个范围内，点云数据会被处理。
+const float MOV_THRESHOLD = 1.5f;//移动阈值为 1.5 倍检测范围
+double time_diff_lidar_to_imu = 0.0;//激光雷达和 IMU 之间的时间偏差。+++++++++++++
 
 mutex mtx_buffer;
 condition_variable sig_buffer;
@@ -232,7 +233,7 @@ void points_cache_collect()
 
 BoxPointType LocalMap_Points;
 bool Localmap_Initialized = false;
-void lasermap_fov_segment()
+void lasermap_fov_segment()//管理局部地图的边界，确保机器人在移动时局部地图能够动态更新。
 {
     cub_needrm.clear();
     kdtree_delete_counter = 0;
@@ -243,11 +244,13 @@ void lasermap_fov_segment()
         for (int i = 0; i < 3; i++){
             LocalMap_Points.vertex_min[i] = pos_LiD(i) - cube_len / 2.0;
             LocalMap_Points.vertex_max[i] = pos_LiD(i) + cube_len / 2.0;
-        }
+        }//如果局部地图未初始化（Localmap_Initialized == false），则以当前激光雷达位置为中心，初始化一个立方体局部地图。
         Localmap_Initialized = true;
         return;
     }
-    float dist_to_map_edge[3][2];
+    float dist_to_map_edge[3][2];//检查是否需要移动局部地图：
+    //计算当前激光雷达位置到局部地图边界的距离。
+    //如果距离小于阈值（MOV_THRESHOLD * DET_RANGE），则需要移动局部地图。
     bool need_move = false;
     for (int i = 0; i < 3; i++){
         dist_to_map_edge[i][0] = fabs(pos_LiD(i) - LocalMap_Points.vertex_min[i]);

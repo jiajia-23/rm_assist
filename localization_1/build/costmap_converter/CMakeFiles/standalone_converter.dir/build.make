@@ -246,6 +246,12 @@ standalone_converter: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py
 standalone_converter: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
 standalone_converter: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
 standalone_converter: /opt/ros/humble/lib/libbondcpp.so
+standalone_converter: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
+standalone_converter: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so
+standalone_converter: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_c.so
+standalone_converter: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_cpp.so
+standalone_converter: /opt/ros/humble/lib/libbond__rosidl_typesupport_cpp.so
+standalone_converter: /opt/ros/humble/lib/libbond__rosidl_generator_py.so
 standalone_converter: /opt/ros/humble/lib/libbond__rosidl_generator_c.so
 standalone_converter: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
 standalone_converter: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so

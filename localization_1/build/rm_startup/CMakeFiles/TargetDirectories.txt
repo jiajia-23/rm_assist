@@ -1,0 +1,9 @@
+/home/jiajia/wzr/localization_1/build/rm_startup/CMakeFiles/uninstall.dir
+/home/jiajia/wzr/localization_1/build/rm_startup/CMakeFiles/rm_startup_uninstall.dir
+/home/jiajia/wzr/localization_1/build/rm_startup/CMakeFiles/test.dir
+/home/jiajia/wzr/localization_1/build/rm_startup/CMakeFiles/edit_cache.dir
+/home/jiajia/wzr/localization_1/build/rm_startup/CMakeFiles/rebuild_cache.dir
+/home/jiajia/wzr/localization_1/build/rm_startup/CMakeFiles/list_install_components.dir
+/home/jiajia/wzr/localization_1/build/rm_startup/CMakeFiles/install.dir
+/home/jiajia/wzr/localization_1/build/rm_startup/CMakeFiles/install/local.dir
+/home/jiajia/wzr/localization_1/build/rm_startup/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/src/mechax_trajectory/include/mechax_trajectory/trajectoryer.hpp

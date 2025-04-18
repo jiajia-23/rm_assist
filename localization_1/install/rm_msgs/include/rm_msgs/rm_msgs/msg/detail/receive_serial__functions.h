@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/rm_msgs/rosidl_generator_c/rm_msgs/msg/detail/receive_serial__functions.h

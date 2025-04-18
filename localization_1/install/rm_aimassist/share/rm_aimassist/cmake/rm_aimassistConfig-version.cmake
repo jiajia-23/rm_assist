@@ -1,0 +1,1 @@
+/home/jiajia/wzr/localization_1/build/rm_aimassist/ament_cmake_core/rm_aimassistConfig-version.cmake

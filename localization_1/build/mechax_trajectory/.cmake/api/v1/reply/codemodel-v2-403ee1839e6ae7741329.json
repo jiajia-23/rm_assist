@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-48827e6227baad058037.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mechax_trajectory",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mechax_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mechax_trajectory-1e8fae34db26569c3d08.json",
+					"name" : "mechax_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mechax_trajectory_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mechax_trajectory_node-9ef9a16081c086e16b58.json",
+					"name" : "mechax_trajectory_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mechax_trajectory_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mechax_trajectory_uninstall-22e5be86783f90e976cf.json",
+					"name" : "mechax_trajectory_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bceeb178d1895baf6cf3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiajia/wzr/localization_1/build/mechax_trajectory",
+		"source" : "/home/jiajia/wzr/localization_1/src/mechax_trajectory"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

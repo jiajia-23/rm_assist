@@ -1,0 +1,13 @@
+{
+  "package_name": "rm_msgs",
+  "non_idl_tuples": [
+    "/home/jiajia/wzr/localization_1/src/rm_msgs:msg/Armor.msg",
+    "/home/jiajia/wzr/localization_1/src/rm_msgs:msg/Target.msg",
+    "/home/jiajia/wzr/localization_1/src/rm_msgs:msg/SendSerial.msg",
+    "/home/jiajia/wzr/localization_1/src/rm_msgs:msg/ReceiveSerial.msg",
+    "/home/jiajia/wzr/localization_1/src/rm_msgs:msg/Status.msg",
+    "/home/jiajia/wzr/localization_1/src/rm_msgs:msg/ClosedLoop.msg",
+    "/home/jiajia/wzr/localization_1/src/rm_msgs:msg/Bias.msg",
+    "/home/jiajia/wzr/localization_1/src/rm_msgs:msg/AssistData.msg"
+  ]
+}

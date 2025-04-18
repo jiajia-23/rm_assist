@@ -1,0 +1,11 @@
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/uninstall.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/mechax_trajectory_uninstall.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/mechax_trajectory.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/mechax_trajectory_node.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/test.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/edit_cache.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/rebuild_cache.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/list_install_components.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/install.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/install/local.dir
+/home/jiajia/wzr/localization_1/build/mechax_trajectory/CMakeFiles/install/strip.dir

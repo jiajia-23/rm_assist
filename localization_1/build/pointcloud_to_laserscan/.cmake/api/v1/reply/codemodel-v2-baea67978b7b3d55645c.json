@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-877916e12135006dd0dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pointcloud_to_laserscan",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy_pointcloud_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy_pointcloud_publisher-2cba94e4460a72c88d42.json",
+					"name" : "dummy_pointcloud_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laserscan_to_pointcloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laserscan_to_pointcloud-cc4054506ec40fb4a829.json",
+					"name" : "laserscan_to_pointcloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laserscan_to_pointcloud_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laserscan_to_pointcloud_node-975f9a51d295ba5eb067.json",
+					"name" : "laserscan_to_pointcloud_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_laserscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_laserscan-b81593376afe249c7762.json",
+					"name" : "pointcloud_to_laserscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_laserscan_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_laserscan_node-f1bfd5a3f7da5cd0e7df.json",
+					"name" : "pointcloud_to_laserscan_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_laserscan_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_laserscan_uninstall-bd6d6db5fa27c20c6583.json",
+					"name" : "pointcloud_to_laserscan_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2afeff9182df62b9a3b4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiajia/wzr/localization_1/build/pointcloud_to_laserscan",
+		"source" : "/home/jiajia/wzr/localization_1/src/rm_perception/pointcloud_to_laserscan"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

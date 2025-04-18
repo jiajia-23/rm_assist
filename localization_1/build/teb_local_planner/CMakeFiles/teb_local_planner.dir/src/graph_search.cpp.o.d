@@ -1712,6 +1712,7 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.hpp \
  /opt/ros/humble/include/tf2/tf2/convert.h \
+ /opt/ros/humble/include/tf2/tf2/convert.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -1723,23 +1724,24 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
- /opt/ros/humble/include/tf2/tf2/exceptions.h \
+ /opt/ros/humble/include/tf2/tf2/exceptions.hpp \
  /opt/ros/humble/include/tf2/tf2/visibility_control.h \
- /opt/ros/humble/include/tf2/tf2/impl/convert.h \
- /opt/ros/humble/include/tf2/tf2/transform_datatypes.h \
- /opt/ros/humble/include/tf2/tf2/time.h \
+ /opt/ros/humble/include/tf2/tf2/impl/convert.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp \
+ /opt/ros/humble/include/tf2/tf2/time.hpp \
  /opt/ros/humble/include/tf2/tf2/utils.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.h \
+ /opt/ros/humble/include/tf2/tf2/utils.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
  /usr/include/c++/12/math.h /usr/include/c++/12/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/float.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
- /opt/ros/humble/include/tf2/tf2/impl/utils.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/impl/utils.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp \
@@ -1813,7 +1815,7 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /usr/include/kdl/frames.hpp /usr/include/kdl/utilities/kdl-config.h \
  /usr/include/kdl/utilities/utility.h \
  /usr/include/kdl/utilities/kdl-config.h /usr/include/kdl/frames.inl \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h \
  /usr/include/c++/12/future /usr/include/c++/12/bits/atomic_futex.h \
  /usr/include/c++/12/bits/std_thread.h \
@@ -2126,7 +2128,7 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
- /opt/ros/humble/include/bondcpp/bond.hpp \
+ /opt/ros/humble/include/bondcpp/bondcpp/bond.hpp \
  /opt/ros/humble/include/bond/bond/msg/constants.hpp \
  /opt/ros/humble/include/bond/bond/msg/detail/constants__struct.hpp \
  /opt/ros/humble/include/bond/bond/msg/detail/constants__builder.hpp \
@@ -2138,8 +2140,9 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /opt/ros/humble/include/bond/bond/msg/detail/status__builder.hpp \
  /opt/ros/humble/include/bond/bond/msg/detail/status__traits.hpp \
  /opt/ros/humble/include/bond/bond/msg/detail/status__type_support.hpp \
- /opt/ros/humble/include/bondcpp/BondSM_sm.hpp \
- /opt/ros/humble/include/smclib/statemap.hpp \
+ /opt/ros/humble/include/bondcpp/bondcpp/BondSM_sm.hpp \
+ /opt/ros/humble/include/smclib/smclib/statemap.hpp \
+ /opt/ros/humble/include/bondcpp/bondcpp/visibility_control.hpp \
  /usr/include/eigen3/Eigen/StdVector /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
  /usr/include/eigen3/Eigen/src/StlSupport/details.h \
@@ -2269,6 +2272,8 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp \
  /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__traits.hpp \
  /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_datatypes.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp \
  /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp \
  /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp \
@@ -2291,10 +2296,10 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.h \
- /opt/ros/humble/include/tf2/tf2/buffer_core.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
- /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
- /opt/ros/humble/include/tf2/tf2/transform_storage.h \
+ /opt/ros/humble/include/tf2/tf2/buffer_core.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/humble/include/tf2/tf2/buffer_core_interface.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_storage.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/create_timer_interface.h \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
@@ -2339,6 +2344,7 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /usr/include/c++/12/bits/regex.h /usr/include/c++/12/bits/regex.tcc \
  /usr/include/c++/12/bits/regex_executor.h \
  /usr/include/c++/12/bits/regex_executor.tcc \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
@@ -2346,6 +2352,7 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
+ /opt/ros/humble/include/tf2/tf2/time.h \
  /opt/ros/humble/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp \
  /opt/ros/humble/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp \
  /opt/ros/humble/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp \
@@ -2383,6 +2390,7 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
  /home/jiajia/wzr/localization_1/src/rm_navigation/third_party/teb_local_planner/teb_local_planner/include/teb_local_planner/visualization.h \
  /home/jiajia/wzr/localization_1/src/rm_navigation/third_party/teb_local_planner/teb_local_planner/include/teb_local_planner/timed_elastic_band.h \
+ /opt/ros/humble/include/tf2/tf2/buffer_core.h \
  /home/jiajia/wzr/localization_1/src/rm_navigation/third_party/teb_local_planner/teb_local_planner/include/teb_local_planner/g2o_types/vertex_pose.h \
  /opt/ros/humble/include/g2o/core/base_vertex.h \
  /usr/include/eigen3/Eigen/Cholesky /usr/include/eigen3/Eigen/Dense \
@@ -2425,14 +2433,14 @@ CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: \
  /home/jiajia/wzr/localization_1/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__struct.hpp \
  /home/jiajia/wzr/localization_1/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__struct.hpp \
  /home/jiajia/wzr/localization_1/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__struct.hpp \
- /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.hpp \
- /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__struct.hpp \
+ /home/jiajia/wzr/localization_1/build/costmap_converter_msgs/rosidl_generator_cpp/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.hpp \
+ /home/jiajia/wzr/localization_1/build/costmap_converter_msgs/rosidl_generator_cpp/costmap_converter_msgs/msg/detail/obstacle_msg__struct.hpp \
  /home/jiajia/wzr/localization_1/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__builder.hpp \
  /home/jiajia/wzr/localization_1/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__traits.hpp \
  /home/jiajia/wzr/localization_1/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__traits.hpp \
  /home/jiajia/wzr/localization_1/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__traits.hpp \
- /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__traits.hpp \
- /home/jiajia/wzr/localization_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__traits.hpp \
+ /home/jiajia/wzr/localization_1/build/costmap_converter_msgs/rosidl_generator_cpp/costmap_converter_msgs/msg/detail/obstacle_array_msg__traits.hpp \
+ /home/jiajia/wzr/localization_1/build/costmap_converter_msgs/rosidl_generator_cpp/costmap_converter_msgs/msg/detail/obstacle_msg__traits.hpp \
  /home/jiajia/wzr/localization_1/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.hpp \
  /home/jiajia/wzr/localization_1/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp \
